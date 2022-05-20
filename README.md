@@ -3,7 +3,7 @@ Embedded-physics machine learning for coarse-graining and collective variable di
 
 
 
-Results  embph/results/VARjoint/quad/quad_z_1_b_4000_svar_00_lagphi_0_lagtheta_0_norm_none_sched_500/2022-05-19_18-36-34 pertain to the 2d-case in the paper.
+Use results/command.sh to generate the simple 2d-case in the paper.
 
 The installation is partly based on an anaconda python environment. I provide the environment specifics as spec-file.txt (anaconda) or in requirements_pip.txt (pip). Only the cpu version of torch is used. It should be easy to change this by installing the corresponding gpu version of pytorch 1.1 and setting the flag --gpu_mode 1 in the command below. To install use the following bash shell commands:
 
