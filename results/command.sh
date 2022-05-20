@@ -1,0 +1,1 @@
+python main.py --dataset quad --model_type VARjoint --epoch 50000 --z_dim 1 --seed 3251 --AEVB 1 --samples_per_mean 4 --sharedlogvar 1 --outputfreq 20 --samples_pred 4000 --sharedlogvar 0 --sharedencoderlogvar 0 --gpu_mode 0 --batch_size 4000 --stepSched 500
